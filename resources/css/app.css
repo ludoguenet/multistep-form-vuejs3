@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .stepFull {
+        @apply after:bg-indigo-500 before:bg-indigo-500 !important;
+    }
+}
